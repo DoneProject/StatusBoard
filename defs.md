@@ -1,8 +1,8 @@
 Defs
 ===
-Organization Name: Done (DON)
-Projectname: Done App
-Manager: Waldboth Alex (flexlex)
+- Organization Name: Done (DON)
+- Projectname: Done App
+- Manager: Waldboth Alex (flexlex)
 
 
 Libraries
