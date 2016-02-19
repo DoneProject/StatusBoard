@@ -9,3 +9,7 @@ Libraries
 ---
 - Socket.io
 - nw: https://github.com/nwjs/nw.js
+
+Help
+---
+- http://thejackalofjavascript.com/getting-started-with-node-webkit-apps/
