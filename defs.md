@@ -8,3 +8,4 @@ Defs
 Libraries
 ---
 - Socket.io
+- nw: https://github.com/nwjs/nw.js
