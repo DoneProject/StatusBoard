@@ -29,4 +29,6 @@ Auf dem Haubtcomputer (server) werden alle Produkte eingegeben und gespeichert (
 - Log_Extra
 
 ####Er-Modell
-*comming*
+![Visual Rappresentation of the DB][logo]
+
+[logo]: https://raw.githubusercontent.com/DoneProject/StatusBoard/master/imgs/er.png
