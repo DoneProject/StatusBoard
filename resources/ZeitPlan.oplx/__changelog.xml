@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
+    <change idref="t1" from="t-1" from-position="0">
+      <change idref="t1" attribute="title" type="string" to="Attività 1"/>
+    </change>
+    <change idref="t6" to="t-1" to-position="0">
+      <change idref="t6" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t6" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t6" attribute="title" type="string" to="Planung"/>
+    </change>
+    <change idref="t11" to="t-1" to-position="1">
+      <change idref="t11" attribute="internalPrerequisitesString" type="string" to="3FS"/>
+      <change idref="t11" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t11" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t11" attribute="title" type="string" to="Documentation"/>
+    </change>
+    <change idref="t15" to="t-1" to-position="2">
+      <change idref="t15" attribute="internalPrerequisitesString" type="string" to="11FS"/>
+      <change idref="t15" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t15" attribute="title" type="string" to="Development (prototyping)"/>
+    </change>
+    <change idref="t14" to="t-1" to-position="3">
+      <change idref="t14" attribute="internalPrerequisitesString" type="string" to="15FS"/>
+      <change idref="t14" attribute="title" type="string" to="Working Beta"/>
+    </change>
+    <change idref="t16" to="t-1" to-position="4">
+      <change idref="t16" attribute="internalPrerequisitesString" type="string" to="14FS"/>
+      <change idref="t16" attribute="title" type="string" to="Release"/>
+    </change>
+    <change idref="t19" to="t-1" to-position="5">
+      <change idref="t19" attribute="internalPrerequisitesString" type="string" to="16FS"/>
+      <change idref="t19" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t19" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t19" attribute="title" type="string" to="Conclusion"/>
+    </change>
+    <change idref="t3" to="t6" to-position="0">
+      <change idref="t3" attribute="effort" type="real" from="28800" to="201600"/>
+      <change idref="t3" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0"/>
+      <change idref="t3" attribute="title" type="string" to="Zeitplan"/>
+    </change>
+    <change idref="t4" to="t6" to-position="1">
+      <change idref="t4" attribute="internalPrerequisitesString" type="string" to="3FS"/>
+      <change idref="t4" attribute="title" type="string" to="Kostenplan"/>
+    </change>
+    <change idref="t5" to="t6" to-position="2">
+      <change idref="t5" attribute="internalPrerequisitesString" type="string" to="4FS"/>
+      <change idref="t5" attribute="title" type="string" to="Lastenheft"/>
+    </change>
+    <change idref="t20" to="t6" to-position="3">
+      <change idref="t20" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t20" attribute="title" type="string" to="Vertrag"/>
+    </change>
+    <change idref="t8" to="t11" to-position="0">
+      <change idref="t8" attribute="internalPrerequisitesString" type="string" to="3FS"/>
+      <change idref="t8" attribute="title" type="string" to="Featurelist"/>
+    </change>
+    <change idref="t9" to="t11" to-position="1">
+      <change idref="t9" attribute="internalPrerequisitesString" type="string" to="3FS"/>
+      <change idref="t9" attribute="title" type="string" to="Api Documentation"/>
+    </change>
+    <change idref="t10" to="t15" to-position="0">
+      <change idref="t10" attribute="internalPrerequisitesString" type="string" to="11FS"/>
+      <change idref="t10" attribute="title" type="string" to="Coding"/>
+    </change>
+    <change idref="t13" to="t15" to-position="1">
+      <change idref="t13" attribute="internalPrerequisitesString" type="string" to="10FS, 11FS"/>
+      <change idref="t13" attribute="title" type="string" to="Test"/>
+    </change>
+    <change idref="t17" to="t19" to-position="0">
+      <change idref="t17" attribute="title" type="string" to="User Maual"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Alex Waldboth" date="2016-02-24T14:22:04.242Z" timestamp="2016-02-24T14:22:04.242Z">
+    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" to="2016-02-24T07:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" to="36900" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2016-02-29T12:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="effort" type="real" from="28800" to="115200" resolved="yes"/>
+    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t5" attribute="resourceLeveledDate" type="date" to="2016-03-01T14:15:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2016-02-29T12:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2016-03-03T14:15:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="effort" type="real" from="28800" to="403200" resolved="yes"/>
+    <change idref="t10" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2016-03-08T09:15:00.000Z" resolved="yes"/>
+    <change idref="t28" to="t11" to-position="2" resolved="yes">
+      <change idref="t28" attribute="internalAssignments" type="string" from="" to="1; 2"/>
+      <change idref="t28" attribute="resourceLeveledDate" type="date" to="2016-03-07T14:15:00.000Z"/>
+      <change idref="t28" attribute="title" type="string" to="Klassen-Diagramm"/>
+    </change>
+    <change idref="t13" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
+    <change idref="t13" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2016-03-17T09:15:00.000Z" resolved="yes"/>
+    <change idref="t14" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t14" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t14" attribute="resourceLeveledDate" type="date" to="2016-03-18T09:15:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t16" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t16" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t16" attribute="resourceLeveledDate" type="date" to="2016-03-14T16:00:00.000Z" resolved="yes"/>
+    <change idref="t17" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t17" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
+    <change idref="t17" attribute="resourceLeveledDate" type="date" to="2016-03-21T14:15:00.000Z" resolved="yes"/>
+    <change idref="t31" to="t19" to-position="1" resolved="yes">
+      <change idref="t31" attribute="resourceLeveledDate" type="date" to="2016-03-21T14:15:00.000Z"/>
+      <change idref="t31" attribute="title" type="string" to="Optimization"/>
+    </change>
+    <change idref="t20" attribute="effort" type="real" from="86400" to="57600" resolved="yes"/>
+    <change idref="t20" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t20" attribute="internalPrerequisitesString" type="string" to="5FS" resolved="yes"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-29T13:10:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" to="2016-03-03T14:15:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
+    <change idref="r2" to="r-1" to-position="1">
+      <change idref="r2" attribute="name" type="string" to="Florian"/>
+    </change>
+    <change idref="r1" attribute="name" type="string" from="Risorsa 1" to="Alex"/>
+  </resource-change-set>
+  <metadata-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-02-24T07:00:00.000Z"/>
+  </metadata-change-set>
+  <metadata-change-set user="Alex Waldboth" date="2016-02-24T14:22:04.241Z" timestamp="2016-02-24T14:22:04.241Z">
+    <change idref="m1" attribute="autoLevelResources" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="m1" attribute="levelConstrainsCompletionDate" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="m1" attribute="projectTitle" type="string" to="DoneApp" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
