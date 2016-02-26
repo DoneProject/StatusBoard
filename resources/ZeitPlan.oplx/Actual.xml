@@ -158,6 +158,8 @@
     <type>milestone</type>
     <leveled-start>2016-03-14T16:00:00.000Z</leveled-start>
     <prerequisite-task idref="t14"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t17">
     <title>User Maual</title>
@@ -191,8 +193,11 @@
   </task>
   <task id="t31">
     <title>Optimization</title>
-    <leveled-start>2016-03-21T14:15:00.000Z</leveled-start>
-    <effort>28800</effort>
+    <leveled-start>2016-03-23T09:15:00.000Z</leveled-start>
+    <effort>57600</effort>
+    <prerequisite-task idref="t17" kind="SS"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

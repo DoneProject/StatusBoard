@@ -118,6 +118,13 @@
     <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-29T13:10:00.000Z" resolved="yes"/>
     <change idref="t20" attribute="resourceLeveledDate" type="date" to="2016-03-03T14:15:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Alex Waldboth" date="2016-02-25T11:45:34.696Z" timestamp="2016-02-25T11:45:34.696Z">
+    <change idref="t16" attribute="internalAssignments" type="string" from="" to="1; 2"/>
+    <change idref="t31" attribute="effort" type="real" from="28800" to="57600"/>
+    <change idref="t31" attribute="resourceLeveledDate" type="date" from="2016-03-21T14:15:00.000Z" to="2016-03-23T09:15:00.000Z"/>
+    <change idref="t31" attribute="internalAssignments" type="string" from="" to="1; 2"/>
+    <change idref="t31" attribute="internalPrerequisitesString" type="string" to="17SS"/>
+  </task-change-set>
   <resource-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
     <change idref="r2" to="r-1" to-position="1">
       <change idref="r2" attribute="name" type="string" to="Florian"/>
