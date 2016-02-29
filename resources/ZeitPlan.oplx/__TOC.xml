@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="42" w="1280" h="758">
+  <window x="0" y="0" w="1280" h="758">
     <editing-scenario>j1OJhgj_J8x</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>284</split-view-divider-position>
-      <outline x="0" y="0" w="284" h="675">
+      <split-view-divider-position>281</split-view-divider-position>
+      <outline x="0" y="0" w="281" h="735">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="169"/>
+        <column name="Title" width="166"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t19 t6 t11 t15"/>
-        <selected-items-at-filter-time idrefs="t8 t13 t4 t16 t11 t9 t5 t19 t14 t20 t31 t28 t17 t6 t37 t15 t10 t3"/>
+        <selected-items-at-filter-time idrefs="t8 t13 t4 t9 t11 t16 t5 t31 t14 t20 t19 t28 t17 t6 t37 t15 t10 t3"/>
       </outline>
-      <gantt-view x="-54" y="0" w="694" h="675">
+      <gantt-view x="-49" y="0" w="697" h="735">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -47,7 +47,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="320.399">
+        <scale scale-name="Automatic" full-day-width="502.197">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -67,7 +67,7 @@
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r2"/>
+        <selected-items-at-filter-time idrefs="r4 r6 r2 r5"/>
       </outline>
       <timeline x="-79" y="0" w="644" h="735">
         <offtime-display>none</offtime-display>
@@ -138,7 +138,7 @@ End:</group-table-style>
   <project>
     <title>DoneApp</title>
     <next-task-id>39</next-task-id>
-    <next-resource-id>4</next-resource-id>
+    <next-resource-id>7</next-resource-id>
     <scenario id="j1OJhgj_J8x" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>

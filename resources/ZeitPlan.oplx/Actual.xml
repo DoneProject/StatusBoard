@@ -71,6 +71,8 @@
     </schedule>
     <child-resource idref="r1"/>
     <child-resource idref="r2"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
   </resource>
   <resource id="r1">
     <name>Alex</name>
@@ -81,6 +83,18 @@
     <name>Florian</name>
     <type>Staff</type>
     <cost-per-hour>50</cost-per-hour>
+  </resource>
+  <resource id="r4">
+    <name>Wifi Router</name>
+    <type>Material</type>
+    <cost-per-use>50</cost-per-use>
+    <units-available>2</units-available>
+  </resource>
+  <resource id="r5">
+    <name>Repeator</name>
+    <type>Material</type>
+    <cost-per-use>30</cost-per-use>
+    <units-available>2</units-available>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
@@ -96,7 +110,7 @@
     <title>Zeitplan</title>
     <leveled-start>2016-02-24T11:15:00.000Z</leveled-start>
     <effort>50400</effort>
-    <effort-done>43200</effort-done>
+    <effort-done>50400</effort-done>
     <assignment idref="r2"/>
     <assignment idref="r1"/>
   </task>
@@ -104,6 +118,7 @@
     <title>Kostenplan</title>
     <leveled-start>2016-03-01T08:15:00.000Z</leveled-start>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
     <prerequisite-task idref="t3"/>
     <assignment idref="r1"/>
   </task>
@@ -145,6 +160,8 @@
     <prerequisite-task idref="t11"/>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
   </task>
   <task id="t11">
     <title>Documentation</title>
@@ -162,6 +179,8 @@
     <prerequisite-task idref="t11"/>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
+    <assignment idref="r4"/>
+    <assignment idref="r5"/>
   </task>
   <task id="t14">
     <title>Working Beta</title>
@@ -231,6 +250,8 @@
     <leveled-start>2016-03-08T09:15:00.000Z</leveled-start>
     <start-constraint-date>2016-02-29T07:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t20"/>
+    <assignment idref="r1"/>
+    <assignment idref="r2"/>
     <start-no-earlier-than>2016-02-29T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
