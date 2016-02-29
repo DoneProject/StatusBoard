@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="0" w="1280" h="758">
+  <window x="0" y="42" w="1280" h="758">
     <editing-scenario>j1OJhgj_J8x</editing-scenario>
-    <view>resource</view>
+    <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="735">
+      <split-view-divider-position>284</split-view-divider-position>
+      <outline x="0" y="0" w="284" h="675">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="191"/>
+        <column name="Title" width="169"/>
         <column name="Effort" width="70"/>
         <expanded-items idrefs="t19 t6 t11 t15"/>
-        <selected-items-at-filter-time idrefs="t8 t13 t4 t9 t16 t11 t5 t19 t20 t31 t14 t6 t28 t17 t15 t10 t3"/>
+        <selected-items-at-filter-time idrefs="t8 t13 t4 t16 t11 t9 t5 t19 t14 t20 t31 t28 t17 t6 t37 t15 t10 t3"/>
       </outline>
-      <gantt-view x="-54" y="0" w="972" h="735">
+      <gantt-view x="-54" y="0" w="694" h="675">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -47,7 +47,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="120.111">
+        <scale scale-name="Automatic" full-day-width="320.399">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -69,7 +69,7 @@
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-79" y="0" w="944" h="735">
+      <timeline x="-79" y="0" w="644" h="735">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -99,7 +99,7 @@
         <task-bar-label task-type="task" position="right">
           <key/>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="300">
+        <scale scale-name="Automatic" full-day-width="548.135">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -137,7 +137,7 @@ End:</group-table-style>
   </window>
   <project>
     <title>DoneApp</title>
-    <next-task-id>33</next-task-id>
+    <next-task-id>39</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="j1OJhgj_J8x" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -145,8 +145,8 @@ End:</group-table-style>
     <auto-level/>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>1.234,56 €</currency-format>
-    <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
-    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true" weeks="true"/>
+    <duration-format hours-per-day="2" hours-per-week="10" hours-per-month="40" hours-per-year="480" hours="true" days="true" weeks="true"/>
+    <effort-format hours-per-day="2" hours-per-week="10" hours-per-month="40" hours-per-year="480" hours="true" days="true" weeks="true"/>
     <base-style>
       <style/>
     </base-style>

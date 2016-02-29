@@ -73,51 +73,6 @@
       <change idref="t17" attribute="title" type="string" to="User Maual"/>
     </change>
   </task-change-set>
-  <task-change-set user="Alex Waldboth" date="2016-02-24T14:22:04.242Z" timestamp="2016-02-24T14:22:04.242Z">
-    <change idref="t3" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t3" attribute="resourceLeveledDate" type="date" to="2016-02-24T07:00:00.000Z" resolved="yes"/>
-    <change idref="t4" attribute="effort" type="real" from="28800" to="36900" resolved="yes"/>
-    <change idref="t4" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2016-02-29T12:00:00.000Z" resolved="yes"/>
-    <change idref="t5" attribute="effort" type="real" from="28800" to="115200" resolved="yes"/>
-    <change idref="t5" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t5" attribute="resourceLeveledDate" type="date" to="2016-03-01T14:15:00.000Z" resolved="yes"/>
-    <change idref="t8" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2016-02-29T12:00:00.000Z" resolved="yes"/>
-    <change idref="t9" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2016-03-03T14:15:00.000Z" resolved="yes"/>
-    <change idref="t10" attribute="effort" type="real" from="28800" to="403200" resolved="yes"/>
-    <change idref="t10" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2016-03-08T09:15:00.000Z" resolved="yes"/>
-    <change idref="t28" to="t11" to-position="2" resolved="yes">
-      <change idref="t28" attribute="internalAssignments" type="string" from="" to="1; 2"/>
-      <change idref="t28" attribute="resourceLeveledDate" type="date" to="2016-03-07T14:15:00.000Z"/>
-      <change idref="t28" attribute="title" type="string" to="Klassen-Diagramm"/>
-    </change>
-    <change idref="t13" attribute="effort" type="real" from="28800" to="57600" resolved="yes"/>
-    <change idref="t13" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2016-03-17T09:15:00.000Z" resolved="yes"/>
-    <change idref="t14" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t14" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t14" attribute="resourceLeveledDate" type="date" to="2016-03-18T09:15:00.000Z" resolved="yes"/>
-    <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
-    <change idref="t16" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t16" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
-    <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
-    <change idref="t16" attribute="resourceLeveledDate" type="date" to="2016-03-14T16:00:00.000Z" resolved="yes"/>
-    <change idref="t17" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t17" attribute="internalAssignments" type="string" from="" to="1; 2" resolved="yes"/>
-    <change idref="t17" attribute="resourceLeveledDate" type="date" to="2016-03-21T14:15:00.000Z" resolved="yes"/>
-    <change idref="t31" to="t19" to-position="1" resolved="yes">
-      <change idref="t31" attribute="resourceLeveledDate" type="date" to="2016-03-21T14:15:00.000Z"/>
-      <change idref="t31" attribute="title" type="string" to="Optimization"/>
-    </change>
-    <change idref="t20" attribute="effort" type="real" from="86400" to="57600" resolved="yes"/>
-    <change idref="t20" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t20" attribute="internalPrerequisitesString" type="string" to="5FS" resolved="yes"/>
-    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-29T13:10:00.000Z" resolved="yes"/>
-    <change idref="t20" attribute="resourceLeveledDate" type="date" to="2016-03-03T14:15:00.000Z" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Alex Waldboth" date="2016-02-25T11:45:34.696Z" timestamp="2016-02-25T11:45:34.696Z">
     <change idref="t16" attribute="internalAssignments" type="string" from="" to="1; 2"/>
     <change idref="t31" attribute="effort" type="real" from="28800" to="57600"/>
@@ -125,18 +80,58 @@
     <change idref="t31" attribute="internalAssignments" type="string" from="" to="1; 2"/>
     <change idref="t31" attribute="internalPrerequisitesString" type="string" to="17SS"/>
   </task-change-set>
+  <task-change-set user="Alex Waldboth" date="2016-02-29T08:29:10.737Z" timestamp="2016-02-29T08:29:10.737Z">
+    <change idref="t3" attribute="effort" type="real" from="201600" to="50400"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" from="2016-02-24T07:00:00.000Z" to="2016-02-24T11:15:00.000Z"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="1; 2" to="2; 1"/>
+    <change idref="t3" attribute="internalEffortDone" type="real" from="0" to="43200"/>
+    <change idref="t4" attribute="effort" type="real" from="36900" to="7200"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2016-02-29T12:00:00.000Z" to="2016-03-01T08:15:00.000Z"/>
+    <change idref="t5" attribute="effort" type="real" from="115200" to="21600"/>
+    <change idref="t5" attribute="resourceLeveledDate" type="date" from="2016-03-01T14:15:00.000Z" to="2016-03-03T07:45:00.000Z"/>
+    <change idref="t37" to="t6" to-position="4">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" to="20FF"/>
+      <change idref="t37" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t37" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-29T07:00:00.000Z"/>
+      <change idref="t37" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t37" attribute="resourceLeveledDate" type="date" to="2016-03-08T09:15:00.000Z"/>
+      <change idref="t37" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t37" attribute="title" type="string" to="Plan erstellt"/>
+    </change>
+    <change idref="t8" attribute="effort" type="real" from="28800" to="7200"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2016-02-29T12:00:00.000Z" to="2016-03-01T08:15:00.000Z"/>
+    <change idref="t9" attribute="effort" type="real" from="28800" to="7200"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2016-03-03T14:15:00.000Z" to="2016-03-07T07:30:00.000Z"/>
+    <change idref="t10" attribute="effort" type="real" from="403200" to="100800"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2016-03-08T09:15:00.000Z" to="2016-03-10T07:45:00.000Z"/>
+    <change idref="t13" attribute="effort" type="real" from="57600" to="14400"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2016-03-17T09:15:00.000Z" to="2016-03-22T08:15:00.000Z"/>
+    <change idref="t14" attribute="effort" type="real" from="86400" to="21600"/>
+    <change idref="t14" attribute="resourceLeveledDate" type="date" from="2016-03-18T09:15:00.000Z" to="2016-03-24T07:45:00.000Z"/>
+    <change idref="t15" attribute="internalPrerequisitesString" type="string" from="11FS" to="11FS, 37FS"/>
+    <change idref="t16" attribute="resourceLeveledDate" type="date" from="2016-03-14T16:00:00.000Z" to="2016-03-24T11:45:00.000Z"/>
+    <change idref="t17" attribute="effort" type="real" from="86400" to="21600"/>
+    <change idref="t17" attribute="resourceLeveledDate" type="date" from="2016-03-21T14:15:00.000Z" to="2016-03-28T06:30:00.000Z"/>
+    <change idref="t20" attribute="effort" type="real" from="57600" to="14400"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2016-03-03T14:15:00.000Z" to="2016-03-07T07:30:00.000Z"/>
+    <change idref="t28" attribute="effort" type="real" from="28800" to="7200"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2016-03-07T14:15:00.000Z" to="2016-03-09T11:15:00.000Z"/>
+    <change idref="t31" attribute="effort" type="real" from="57600" to="7200"/>
+    <change idref="t31" attribute="resourceLeveledDate" type="date" from="2016-03-23T09:15:00.000Z" to="2016-03-29T07:15:00.000Z"/>
+  </task-change-set>
   <resource-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
     <change idref="r2" to="r-1" to-position="1">
       <change idref="r2" attribute="name" type="string" to="Florian"/>
     </change>
     <change idref="r1" attribute="name" type="string" from="Risorsa 1" to="Alex"/>
   </resource-change-set>
+  <resource-change-set user="Alex Waldboth" date="2016-02-29T08:29:10.737Z" timestamp="2016-02-29T08:29:10.737Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";28800,34200,51300,56700;31500,36900;44100,47700;31500,34200,41400,47700;;"/>
+    <change idref="r1" attribute="costPerHour" type="real" from="0" to="50"/>
+    <change idref="r2" attribute="costPerHour" type="real" from="0" to="50"/>
+  </resource-change-set>
   <metadata-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-02-24T07:00:00.000Z"/>
-  </metadata-change-set>
-  <metadata-change-set user="Alex Waldboth" date="2016-02-24T14:22:04.241Z" timestamp="2016-02-24T14:22:04.241Z">
-    <change idref="m1" attribute="autoLevelResources" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="m1" attribute="levelConstrainsCompletionDate" type="real" from="1" to="0" resolved="yes"/>
-    <change idref="m1" attribute="projectTitle" type="string" to="DoneApp" resolved="yes"/>
   </metadata-change-set>
 </changelog>
