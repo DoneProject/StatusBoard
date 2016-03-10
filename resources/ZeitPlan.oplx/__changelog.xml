@@ -120,6 +120,13 @@
     <change idref="t31" attribute="effort" type="real" from="57600" to="7200"/>
     <change idref="t31" attribute="resourceLeveledDate" type="date" from="2016-03-23T09:15:00.000Z" to="2016-03-29T07:15:00.000Z"/>
   </task-change-set>
+  <task-change-set user="Alex Waldboth" date="2016-02-29T13:58:31.327Z" timestamp="2016-02-29T13:58:31.327Z">
+    <change idref="t3" attribute="internalEffortDone" type="real" from="43200" to="50400"/>
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+    <change idref="t10" attribute="internalAssignments" type="string" from="1; 2" to="1; 2; 4; 5"/>
+    <change idref="t13" attribute="internalAssignments" type="string" from="1; 2" to="1; 2; 4; 5"/>
+    <change idref="t37" attribute="internalAssignments" type="string" from="" to="1; 2"/>
+  </task-change-set>
   <resource-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
     <change idref="r2" to="r-1" to-position="1">
       <change idref="r2" attribute="name" type="string" to="Florian"/>
@@ -130,6 +137,22 @@
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";28800,34200,51300,56700;31500,36900;44100,47700;31500,34200,41400,47700;;"/>
     <change idref="r1" attribute="costPerHour" type="real" from="0" to="50"/>
     <change idref="r2" attribute="costPerHour" type="real" from="0" to="50"/>
+  </resource-change-set>
+  <resource-change-set user="Alex Waldboth" date="2016-02-29T13:58:31.327Z" timestamp="2016-02-29T13:58:31.327Z">
+    <change idref="r4" to="r-1" to-position="2">
+      <change idref="r4" attribute="costPerUse" type="real" from="0" to="50"/>
+      <change idref="r4" attribute="efficiency" type="real" from="1" to="0"/>
+      <change idref="r4" attribute="name" type="string" to="Wifi Router"/>
+      <change idref="r4" attribute="resourceTypeRank" type="real" from="0" to="2"/>
+      <change idref="r4" attribute="unitsAvailable" type="real" from="1" to="2"/>
+    </change>
+    <change idref="r5" to="r-1" to-position="3">
+      <change idref="r5" attribute="costPerUse" type="real" from="0" to="30"/>
+      <change idref="r5" attribute="efficiency" type="real" from="1" to="0"/>
+      <change idref="r5" attribute="name" type="string" to="Repeator"/>
+      <change idref="r5" attribute="resourceTypeRank" type="real" from="0" to="2"/>
+      <change idref="r5" attribute="unitsAvailable" type="real" from="1" to="2"/>
+    </change>
   </resource-change-set>
   <metadata-change-set user="Alex Waldboth" date="2016-02-24T14:01:13.629Z" timestamp="2016-02-24T14:01:13.629Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-02-24T07:00:00.000Z"/>
