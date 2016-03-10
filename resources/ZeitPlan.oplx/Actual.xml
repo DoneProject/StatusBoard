@@ -88,13 +88,13 @@
     <name>Wifi Router</name>
     <type>Material</type>
     <cost-per-use>50</cost-per-use>
-    <units-available>2</units-available>
+    <units-available>0</units-available>
   </resource>
   <resource id="r5">
     <name>Repeator</name>
     <type>Material</type>
     <cost-per-use>30</cost-per-use>
-    <units-available>2</units-available>
+    <units-available>0</units-available>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
@@ -124,11 +124,13 @@
   </task>
   <task id="t5">
     <title>Lastenheft</title>
-    <leveled-start>2016-03-03T07:45:00.000Z</leveled-start>
+    <leveled-start>2016-03-08T07:45:00.000Z</leveled-start>
     <effort>21600</effort>
+    <start-constraint-date>2016-03-08T07:45:00.000Z</start-constraint-date>
     <prerequisite-task idref="t4"/>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2016-03-08T07:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>Planung</title>
@@ -141,21 +143,25 @@
   </task>
   <task id="t8">
     <title>Featurelist</title>
-    <leveled-start>2016-03-01T08:15:00.000Z</leveled-start>
+    <leveled-start>2016-03-10T08:15:00.000Z</leveled-start>
     <effort>7200</effort>
+    <start-constraint-date>2016-03-08T07:45:00.000Z</start-constraint-date>
     <prerequisite-task idref="t3"/>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2016-03-08T07:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t9">
     <title>Api Documentation</title>
-    <leveled-start>2016-03-07T07:30:00.000Z</leveled-start>
+    <leveled-start>2016-03-10T12:15:00.000Z</leveled-start>
     <effort>7200</effort>
+    <start-constraint-date>2016-03-08T07:45:00.000Z</start-constraint-date>
     <prerequisite-task idref="t3"/>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2016-03-08T07:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t10">
     <title>Coding</title>
-    <leveled-start>2016-03-10T07:45:00.000Z</leveled-start>
+    <leveled-start>2016-03-14T13:45:00.000Z</leveled-start>
     <effort>100800</effort>
     <prerequisite-task idref="t11"/>
     <assignment idref="r1"/>
@@ -173,7 +179,7 @@
   </task>
   <task id="t13">
     <title>Test</title>
-    <leveled-start>2016-03-22T08:15:00.000Z</leveled-start>
+    <leveled-start>2016-03-28T06:00:00.000Z</leveled-start>
     <effort>14400</effort>
     <prerequisite-task idref="t10"/>
     <prerequisite-task idref="t11"/>
@@ -184,7 +190,7 @@
   </task>
   <task id="t14">
     <title>Working Beta</title>
-    <leveled-start>2016-03-24T07:45:00.000Z</leveled-start>
+    <leveled-start>2016-03-28T12:45:00.000Z</leveled-start>
     <effort>21600</effort>
     <prerequisite-task idref="t15"/>
     <assignment idref="r1"/>
@@ -201,14 +207,14 @@
   <task id="t16">
     <title>Release</title>
     <type>milestone</type>
-    <leveled-start>2016-03-24T11:45:00.000Z</leveled-start>
+    <leveled-start>2016-03-30T10:45:00.000Z</leveled-start>
     <prerequisite-task idref="t14"/>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
   </task>
   <task id="t17">
     <title>User Maual</title>
-    <leveled-start>2016-03-28T06:30:00.000Z</leveled-start>
+    <leveled-start>2016-03-30T10:45:00.000Z</leveled-start>
     <effort>21600</effort>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
@@ -222,7 +228,7 @@
   </task>
   <task id="t20">
     <title>Vertrag</title>
-    <leveled-start>2016-03-07T07:30:00.000Z</leveled-start>
+    <leveled-start>2016-03-10T08:15:00.000Z</leveled-start>
     <effort>14400</effort>
     <start-constraint-date>2016-02-29T13:10:00.000Z</start-constraint-date>
     <prerequisite-task idref="t5"/>
@@ -231,14 +237,14 @@
   </task>
   <task id="t28">
     <title>Klassen-Diagramm</title>
-    <leveled-start>2016-03-09T11:15:00.000Z</leveled-start>
+    <leveled-start>2016-03-01T08:15:00.000Z</leveled-start>
     <effort>7200</effort>
     <assignment idref="r1"/>
     <assignment idref="r2"/>
   </task>
   <task id="t31">
     <title>Optimization</title>
-    <leveled-start>2016-03-29T07:15:00.000Z</leveled-start>
+    <leveled-start>2016-03-31T11:15:00.000Z</leveled-start>
     <effort>7200</effort>
     <prerequisite-task idref="t17" kind="SS"/>
     <assignment idref="r1"/>
@@ -247,7 +253,7 @@
   <task id="t37">
     <title>Plan erstellt</title>
     <type>milestone</type>
-    <leveled-start>2016-03-08T09:15:00.000Z</leveled-start>
+    <leveled-start>2016-03-14T13:45:00.000Z</leveled-start>
     <start-constraint-date>2016-02-29T07:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t20"/>
     <assignment idref="r1"/>

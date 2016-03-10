@@ -1,7 +1,7 @@
 TODO-List
 ===
 ###Milestone 1
-- [ ] Kostenplan
-- [ ] Zeitplan
+- [X] Kostenplan
+- [X] Zeitplan
 - [X] Name: ✓ Done
 ###Milestone 2
