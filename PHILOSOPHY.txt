@@ -1,0 +1,3 @@
+Done App
+--------
+Beim Start werden alle Tische, die im Manager registriert wurden, in einer Gitter-Darstellung präsentiert. Tische können als Favorit markiert werden (Stern-Icon).
