@@ -2,15 +2,15 @@ Projekt
 ===
 
 - [X] Firmengründung: Firmennamen
-- [ ] Briefkopf
+- [x] Briefkopf
 - [X] Bestellung Projektmanager 
-- [ ] Lastenheft 
+- [x] Lastenheft 
 - [X] Abstract…
 - Spezifikation
- - [ ] Use-Case Diagramm (PM)
- - [ ] ER-Diagramm (Inf)
-- [ ] Projektauftrag (mit allen dazugehörigen Daten und Unterschriften)
-- [ ] Terminplan / Zeitplan (Meilensteine für Auftraggeber und MS-Project für laufende Durchführung)
-- [ ] Kostenplan (MS-Project)
-- [ ] Wöchentliche Protokolle mit: Fortschritt, Probleme, Erkenntnisse, To Do-Liste für vergangene und für folgende Woche
-- [ ] Kommunikation mit Auftraggeber
+ - [x] Use-Case Diagramm (PM)
+ - [x] ER-Diagramm (Inf)
+- [x] Projektauftrag (mit allen dazugehörigen Daten und Unterschriften)
+- [x] Terminplan / Zeitplan (Meilensteine für Auftraggeber und MS-Project für laufende Durchführung)
+- [x] Kostenplan (MS-Project)
+- [x] Wöchentliche Protokolle mit: Fortschritt, Probleme, Erkenntnisse, To Do-Liste für vergangene und für folgende Woche
+- [x] Kommunikation mit Auftraggeber
